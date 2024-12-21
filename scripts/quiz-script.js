@@ -13,7 +13,7 @@ var quizTextOptions;
 // answers = multiple choice options, correct = which option from the array of answers is the correct one
 // answer = correct free response answer
 // json validated with https://jsonlint.com/
-fetch('https://inm316.raveenajain.repl.co/quiz.json') // public file from coursework submission
+fetch('https://raw.githubusercontent.com/raveenajain/minimyths/refs/heads/main/quiz.json') // public file from coursework submission
   .then((response) => response.json())
   .then((data) => {
     quizMCOptions = data[0];
